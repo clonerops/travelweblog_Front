@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Yekan_reqular';
+    src: url('../fonts/YekanBakhFaNum-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Yekan_bold';
+    src: url('../fonts/YekanBakhFaNum-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    direction: rtl;
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Auth Layout */
+.authlayout {
+    width: 100%;
+    height: 100vh;
+}
+
+.authlayout .authlayout__content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.authlayout .authlayout__content .authlayout__background {
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/mountain-lake-forest-nature-scenery-hd-wallpaper-uhdpaper.com-135@0@i.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.authlayout .authlayout__content .authlayout__body {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 30rem;
+    width: 80%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 0.4rem;
+    background-color: #FFF;
+    box-shadow: -5px 30px 55px 11px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: -5px 30px 55px 11px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: -5px 30px 55px 11px rgba(0, 0, 0, 0.05);
+}
+
+.authlayout .authlayout__content .authlayout__body .authlayout__body-title {
+    text-align: center;
+    padding: 2rem;
+    font-family: Yekan_bold;
+    font-size: 2.5rem;
+}
+
+.authlayout .authlayout__content .authlayout__body .authlayout__body-content {
+    padding-top: 2.6rem;
+    padding-bottom: 2.6rem;
+}
+/* Auth Layout */
