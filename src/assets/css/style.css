@@ -77,7 +77,41 @@ body {
 }
 
 .authlayout .authlayout__content .authlayout__body .authlayout__body-content {
-    padding-top: 2.6rem;
-    padding-bottom: 2.6rem;
+    padding: 2.6rem;
 }
+
 /* Auth Layout */
+
+/* signup */
+.signup .signup__column {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* signup */
+
+/* Input */
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.input .input__label, .input .input__body {
+    font-family: Yekan_reqular;
+    font-size: 1.8rem;
+}
+
+.input .input__body {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+/* Input */
